@@ -54,3 +54,32 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
+@media (max-width: 600px) {
+    #display {
+        font-size: 4rem;
+    }
+
+    button {
+        height: 80px;
+        font-size: 2.5rem;
+    }
+
+    #keys {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    #display {
+        font-size: 3rem; 
+    }
+
+    button {
+        height: 70px;
+        font-size: 2rem; 
+    }
+
+    #keys {
+        padding: 10px; 
+    }
+}
