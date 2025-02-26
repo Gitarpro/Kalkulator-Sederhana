@@ -56,30 +56,36 @@ button:active{
 }
 @media (max-width: 600px) {
     #display {
-        font-size: 1em;
+        height: 15px;
+        width: 400px;
+        font-size: 4rem;
     }
 
     button {
-        height: 25px;
-        font-size: 1.5em;
+        width: auto;
+        height: 80px; 
+        font-size: 2.5rem; 
     }
 
     #keys {
-        padding: 7px;
+        padding: 15px; 
     }
 }
 
 @media (max-width: 400px) {
     #display {
-        font-size: 1em; 
+        height: 8px;
+        width: 250px;
+        font-size: 3rem; 
     }
 
     button {
-        height: 15px;
-        font-size: 1em; 
+        width: auto;
+        height: 70px; 
+        font-size: 2rem; 
     }
 
     #keys {
-        padding: 3px; 
+        padding: 10px;
     }
 }
