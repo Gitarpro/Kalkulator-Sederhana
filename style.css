@@ -64,7 +64,7 @@ button:active{
     button {
         width: auto;
         height: 80px; 
-        font-size: 2.5rem; 
+        font-size: 1.5rem; 
     }
 
     #keys {
@@ -76,7 +76,7 @@ button:active{
     #display {
         height: 8px;
         width: 250px;
-        font-size: 3rem; 
+        font-size: 1rem; 
     }
 
     button {
